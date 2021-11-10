@@ -3,6 +3,7 @@
 import os
 import sys
 
+import dotenv
 
 def main():
     """Run administrative tasks."""
@@ -19,4 +20,5 @@ def main():
 
 
 if __name__ == '__main__':
+    dotenv.read_dotenv()  # .env파일에 있는 환경변수값들을 불러오기 위함
     main()

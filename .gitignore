@@ -1,2 +1,8 @@
 # 가상환경
 venv
+
+# vscode
+.vscode
+
+# 환경변수
+# .env
