@@ -5,4 +5,7 @@ venv
 .vscode
 
 # 환경변수
-# .env
+.env
+
+# 캐시
+djangoApi/__pycache__
